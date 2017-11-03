@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.sip.monmon.sipapp.MainActivity">
+
+    <Button
+        android:id="@+id/numSix"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/numSix"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/numNine"
+        app:layout_constraintStart_toStartOf="@+id/numNine"
+        app:layout_constraintTop_toBottomOf="@+id/numThree" />
+
+    <Button
+        android:id="@+id/numFive"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/numFive"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numTwo" />
+
+    <Button
+        android:id="@+id/numFour"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/numFour"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/numSeven"
+        app:layout_constraintStart_toStartOf="@+id/numSeven"
+        app:layout_constraintTop_toBottomOf="@+id/numOne" />
+
+    <Button
+        android:id="@+id/numThree"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/numThree"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/numSix"
+        app:layout_constraintStart_toStartOf="@+id/numSix"
+        app:layout_constraintTop_toTopOf="@+id/numTwo" />
+
+    <Button
+        android:id="@+id/config"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/config"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/numOne"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="197dp"
+        android:text="@string/numOne"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/numFour"
+        app:layout_constraintStart_toStartOf="@+id/numFour"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/numSeven"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/numSeven"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/symbolStar"
+        app:layout_constraintStart_toStartOf="@+id/symbolStar"
+        app:layout_constraintTop_toBottomOf="@+id/numFour" />
+
+    <Button
+        android:id="@+id/numEight"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/numEight"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numFive" />
+
+    <Button
+        android:id="@+id/numNine"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/numNine"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="@+id/symbolHash"
+        app:layout_constraintStart_toStartOf="@+id/symbolHash"
+        app:layout_constraintTop_toBottomOf="@+id/numSix" />
+
+    <Button
+        android:id="@+id/symbolHash"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="31dp"
+        android:text="@string/symbolHash"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/backwards"
+        app:layout_constraintStart_toEndOf="@+id/numZero" />
+
+    <Button
+        android:id="@+id/numZero"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:text="@string/numZero"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/makingCall"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/symbolStar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/symbolStar"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/makingCall"
+        app:layout_constraintEnd_toStartOf="@+id/numZero" />
+
+    <Button
+        android:id="@+id/numTwo"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="@string/numTwo"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/numOne" />
+
+    <Button
+        android:id="@+id/makingCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="13dp"
+        android:text="@string/makingCall"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/symbolStar" />
+
+    <Button
+        android:id="@+id/backwards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/backwards"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/symbolHash"
+        app:layout_constraintStart_toStartOf="@+id/symbolHash" />
+
+    <TextView
+        android:id="@+id/regState"
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="12dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/config" />
+
+    <TextView
+        android:id="@+id/phoneNum"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:background="@android:color/holo_blue_light"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regState" />
+
+</android.support.constraint.ConstraintLayout>
